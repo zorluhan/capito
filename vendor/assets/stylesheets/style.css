@@ -14,7 +14,7 @@ height:100%;
 }
 
 .navbar-default {
-    background-color: #1abc9c;
+    background-color: #e74c3c;
     border:0;
 	border-radius:0;
 	margin-bottom:40px;
@@ -28,7 +28,7 @@ height:100%;
     color: #fff;
 }
 .navbar-brand {
-    background:url(scapish.png) no-repeat;width:90px;height:36px;
+    background:url(capish.png) no-repeat;width:90px;height:36px;
 }
 
 .navbar-default .navbar-toggle {
