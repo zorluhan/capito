@@ -20,7 +20,6 @@ module Capito
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 config.assets.paths += Dir["#{Rails.root}/vendor/assets/*"].sort_by { |dir| -dir.size }
-config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
 
   end
