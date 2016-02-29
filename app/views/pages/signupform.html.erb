@@ -1,26 +1,27 @@
  
+ 
 <div class="signup">
 <div class="container">
-<a class="logo" href="#" title="capish"></a>
-<h2 class="text-center">SIGN UP FOR INSTAGRAMMERS</h2>
+<a class="logo" href="#" title="capish">capish</a>
+<h2 class="text-center">ALMOST THERE!</h2>
  <form role="form">
   <div class="form-group form-groupemail">
-    <input type="email" class="form-control formcapish" id="email" placeholder="Email" onfocus="this.placeholder = ''" />
+    <input type="email" class="form-control formcapish" id="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder='Email'" />
   </div>
   <div class="form-group form-groupname1 pull-left">
-	<input type="firstname" class="form-control formcapish" id="usr" placeholder="First Name" onfocus="this.placeholder = ''" />
+	<input type="firstname" class="form-control formcapish" id="usr" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder='First Name'" />
 	</div>
 	<div class="form-group form-groupname2 pull-right">
-	<input type="lastname" class="form-control formcapish" id="usr" placeholder="Last Name" onfocus="this.placeholder = ''" />
+	<input type="lastname" class="form-control formcapish" id="usr" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder='Last Name'" />
 	</div>
 	
 	 <div class="form-group form-grouploc error">
-	<input type="fullname" class="form-control formcapish" id="usr" placeholder="Start typing a city" onfocus="this.placeholder = ''" />
+	<input type="fullname" class="form-control formcapish" id="usr" placeholder="Start typing a city" onfocus="this.placeholder = ''" onblur="this.placeholder='Start typing a city'" />
 	</div>
 
 
 	<div class="form-group form-groupcake">
-	<input type="fullname" class="form-control formcapish" id="usr" placeholder="Date of birth" onfocus="this.placeholder = ''" />
+	<input type="fullname" class="form-control formcapish" id="usr" placeholder="Date of birth" onfocus="this.placeholder = ''" onblur="this.placeholder='Date of birth'" />
 	</div>
 
 	<div class="form-group form-selectfull form-noborder">
@@ -34,7 +35,7 @@
 
 	
 	<div class="form-group form-selectfull form-noborder error">
-	<label for="name" class="gender"><i class="fa fa-asterisk"></i>What theme best describes you?</label>
+	<label for="name" class="gender"><i class="fa fa-fire"></i>What passion best describes your Instagram feed?</label>
 	<select class="selectpicker">
 	  <option>Select</option>
 	  <option>Lifestyle</option>
@@ -42,15 +43,16 @@
 	</select>
 	</div>
 	
+	<label class="lblpaypal">This is the price per post brands will see on your profile.</label>
 	<div class="form-group form-groupmoney">
-		<input type="fullname" class="form-control formcapish" id="usr" placeholder="Price per post" onfocus="this.placeholder = ''" />
+		<input type="fullname" class="form-control formcapish" id="usr" placeholder="Price per post ($). This can be changed at anytime." onfocus="this.placeholder = '$'" onblur="this.placeholder='Price per post ($). This can be changed at anytime.'" />
 	</div>
 	
 	<div class="form-group form-grouppaypal">
-  <input type="fullname" class="form-control formcapish" id="usr" placeholder="Email address associated with Paypal account" onfocus="this.placeholder = ''" />
+  <input type="fullname" class="form-control formcapish" id="usr" placeholder="Email address associated with Paypal account" onfocus="this.placeholder = ''" onblur="this.placeholder='Email address associated with Paypal account'" />
 	</div>
-  <div class="row row0 text-right"><a href="https://obscure-waters-33179.herokuapp.com/pages/new"><button type="submit" class="btn btn-send">JOIN</button></a></div>
-  <div class="row row0 text-right terms">By clicking join, you agree to our <a href="/signup">terms of use</a></div>
+  <div class="row row0 text-right"><button type="submit" class="btn btn-send">JOIN</button></div>
+  <div class="row row0 text-right terms">By clicking join, you agree to our <a href="#">terms of use</a></div>
 </form>
 
 </div>
@@ -60,5 +62,4 @@
   size: 4
 });		
 </script>
- 
  
