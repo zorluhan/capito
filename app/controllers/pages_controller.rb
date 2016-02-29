@@ -7,6 +7,19 @@ class PagesController < ApplicationController
     @pages = Page.all
   end
 
+  def editaccount
+  end
+
+  def editprofile
+  end
+
+  def faq
+  end
+
+  def proposals
+  end
+  
+
   # GET /pages/1
   # GET /pages/1.json
   def show
