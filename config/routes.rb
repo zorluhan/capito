@@ -6,7 +6,10 @@ Rails.application.routes.draw do
   get '/brands' => 'pages#brands'
   get '/editaccount' => 'pages#editaccount'
   get '/editprofile'=> 'pages#editprofile'
-
+  get '/faq' => 'pages#faq'
+  get '/proposals'=> 'pages#proposals'
+  get '/profile'=> 'pages#profile'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

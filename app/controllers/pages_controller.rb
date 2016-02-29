@@ -22,6 +22,8 @@ end
   def proposals
   end
   
+  def profile
+  end
 
   # GET /pages/1
   # GET /pages/1.json
