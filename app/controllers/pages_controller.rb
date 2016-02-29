@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   def editprofile
   end
 
+def brands
+end
+
   def faq
   end
 
